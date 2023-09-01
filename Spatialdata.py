@@ -13,3 +13,7 @@ print("Columns:", gdf_countries.columns)
 print("Coordinate Reference System (CRS):", gdf_countries.crs)
 
 
+# Plot the countries
+gdf_countries.plot()
+plt.title("World Countries")
+plt.show()
