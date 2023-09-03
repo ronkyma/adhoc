@@ -11,8 +11,7 @@ def get_geoinfo(location_name):
         result = data["geonames"][0]
         country = result["countryName"]
         population = result["population"]
-        lat = result["lat"]
-        lon = result["lng"]
+        
 
         print(f"Location: {location_name}")
         print(f"Country: {country}")
