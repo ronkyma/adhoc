@@ -20,4 +20,4 @@ if __name__ == "__main__":
     coord2 = (40.7128, -74.0060)   # New York
 
     distance = calculate_distance(coord1, coord2)
-    print(f"Distance between Los Angeles and New York: {distance:.2f} km")
+    print(f"Distance  Los Angeles and New York: {distance:.2f} km")
