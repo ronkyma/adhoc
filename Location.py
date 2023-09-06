@@ -13,6 +13,5 @@ joined_gdf = gpd.sjoin(points_gdf, polygons_gdf, op='within')
 stats = joined_gdf.groupby('polygon_attribute').size().reset_index(name='point_count')
 
 # Save the results to a new shapefile
-stats.to_file('analysis_results.shp')
 
 print("Analysis results saved to 'analysis_results.shp'.")
