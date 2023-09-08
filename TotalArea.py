@@ -15,6 +15,7 @@ print(f"Total area: {total_area} square units")
 
 # Calculate summary statistics for a numeric attribute (e.g., population)
 if 'population' in gdf.columns:
+    mean_population = gdf['population'].mean()
     max_population = gdf['population'].max()
     min_population = gdf['population'].min()
     print(f"Mean Population: {mean_population}")
