@@ -4,7 +4,7 @@ import geopandas as gpd
 points_gdf = gpd.read_file('points.shp')
 
 # Load polygon data (e.g., administrative boundaries)
-
+polygons_gdf = gpd.read_file('polygons.shp')
 
 # Spatially join points within polygons
 joined_gdf = gpd.sjoin(points_gdf, polygons_gdf, op='within')
