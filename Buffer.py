@@ -13,7 +13,7 @@ gdf = gpd.GeoDataFrame(data, geometry=geometry, crs='EPSG:4326')
 buffer_distance_degrees = 1.0
 
 # Create a buffer around the points
-buffered_gdf = gdf.copy()
+
 buffered_gdf['geometry'] = buffered_gdf.buffer(buffer_distance_degrees)
 
 # Save the buffered GeoDataFrame to a file (e.g., shapefile or GeoJSON)
