@@ -3,6 +3,7 @@ from shapely.geometry import Point
 
 # Create a sample GeoDataFrame with points
 data = {'ID': [1, 2, 3],
+        'Latitude': [34.0522, 40.7128, 41.8781],
         'Longitude': [-118.2437, -74.0060, -87.6298]}
 
 geometry = [Point(xy) for xy in zip(data['Longitude'], data['Latitude'])]
