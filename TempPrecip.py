@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 data = {
     'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     'Temperature': [10, 12, 15, 18, 22, 25, 28, 26, 23, 20, 15, 12],
-    'Precipitation': [70, 40, 60, 30, 20, 10, 5, 8, 15, 25, 45, 55]
+    'Precipitation': [50, 40, 60, 30, 20, 10, 5, 8, 15, 25, 45, 55]
 }
 
 climate_data = pd.DataFrame(data)
