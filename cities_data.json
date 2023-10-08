@@ -1,0 +1,29 @@
+{
+  "cities": [
+    {
+      "City": "Paris",
+      "Population": 2140526,
+      "Coordinates": [2.3522, 48.8566]
+    },
+    {
+      "City": "New York City",
+      "Population": 8398748,
+      "Coordinates": [-74.006, 40.7128]
+    },
+    {
+      "City": "Tokyo",
+      "Population": 37435191,
+      "Coordinates": [139.6917, 35.6895]
+    },
+    {
+      "City": "Delhi",
+      "Population": 29399141,
+      "Coordinates": [77.1025, 28.7041]
+    },
+    {
+      "City": "Moscow",
+      "Population": 12615279,
+      "Coordinates": [114.0719, 51.0447]
+    }
+  ]
+}

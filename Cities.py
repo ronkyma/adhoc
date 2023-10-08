@@ -4,7 +4,7 @@ from shapely.geometry import Point
 import folium
 
 # Load GIS data from a GeoJSON file
-file_path = 'cities_data.geojson'
+file_path = 'c:/Users/User/Desktop/Python/PythonYoutube/cities_data.json'
 cities_data = gpd.read_file(file_path)
 
 # Display basic information about the dataset
