@@ -8,7 +8,7 @@ file_path = 'c:/Users/User/Desktop/Python/PythonYoutube/cities_data.json'
 cities_data = gpd.read_file(file_path)
 
 # Display basic information about the dataset
-print(cities_data.head())
+
 
 # Plot the GIS data with population-based color-coding
 fig, ax = plt.subplots(figsize=(10, 8))
