@@ -9,7 +9,6 @@ landuse_data = gpd.read_file(file_path)
 print(landuse_data.head())
 
 # Plot the land use data
-landuse_data.plot(column='LandUseType', legend=True, figsize=(10, 8))
 plt.title('Land Use Distribution')
 plt.show()
 
