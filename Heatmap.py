@@ -10,7 +10,7 @@ weather_data = pd.read_csv(file_path)
 print(weather_data.describe())
 
 # Visualize temperature trends over time
-
+sns.set(style="whitegrid")
 plt.figure(figsize=(10, 6))
 sns.lineplot(x='Date', y='Temperature', data=weather_data)
 plt.title('Temperature Trends Over Time')
