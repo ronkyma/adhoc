@@ -15,7 +15,6 @@ plt.show()
 
 # Perform spatial analysis or other data manipulations as needed
 # Example: Calculate area for each land use type
-landuse_area = landuse_data.groupby('LandUseType').area.sum()
 
 # Plot the land use area distribution
 landuse_area.plot(kind='bar', color='skyblue', figsize=(10, 6))
